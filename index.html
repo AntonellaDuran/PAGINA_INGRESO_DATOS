@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario_Antonella</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2> REGISTRAR DATOS</h2>
+        <form id="registration-form" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombres:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <span class="error" id="error-nombre"></span>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellidos:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <span class="error" id="error-apellido"></span>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo:</label>
+                <input type="text" id="correo" name="correo" required>
+                <span class="error" id="error-correo"></span>
+            </div>
+            <div class="form-group">
+                <label for="Movil">Telefono:</label>
+                <input type="text" id="Movil" name="Movil" required>
+                <span class="error" id="error-movil"></span>
+            </div>
+            <div class="form-group">
+                <label for="Direccion">Direccion:</label>
+                <input type="text" id="Direccion" name="Direccion" required>
+                <span class="error" id="error-Direccion"></span>
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Clave:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+                <span class="error" id="error-contrasena"></span>
+            </div>
+            <div class="form-group">
+                <label for="repetir-contrasena">Repetir Clave:</label>
+                <input type="password" id="repetir-contrasena" name="repetir-contrasena" required>
+                <span class="error" id="error-repetir-contrasena"></span>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="termsAndConditions">
+                            <label for="termsAndConditions">Estoy de acuerdo con los </label>
+                            <a href="#">Terminos y Condiciones</a>
+                        </div>
+                        <p></p>
+                        <center>
+            <div class="form-group">
+                <input type="submit" value="ENVIAR DATOS">
+            </div>
+        </form>
+    </div>
+    <script src="registro.js"></script>
+</body>
+</html>
